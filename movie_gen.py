@@ -1,8 +1,8 @@
 import os
-from moviepy.editor import ColorClip, AudioFileClip
+from moviepy import ColorClip, AudioFileClip
 
 # ベースフォルダのパス
-base_folder = "/Users/yusuke_omura/Documents/MovieGen"
+base_folder = ""
 audio_folder = os.path.join(base_folder, "audio")
 video_folder = os.path.join(base_folder, "video")
 
